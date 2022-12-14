@@ -40,10 +40,6 @@ html {
   background:url(background2.jpg) center center no-repeat fixed;
   background-size:cover;
 }
-body {
-  max-width:1600px;
-  margin:25px auto;
-}
 
 /* Utility classes */
 .hide {
