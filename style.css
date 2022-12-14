@@ -53,29 +53,6 @@ h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 
 /**
- * Paragraphs
- */
-p {
-  margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
-}
-p + p {
-
-}
-
-/**
- * Quotes & Blockquotes
- */
-q {
-  quotes: '\00201C' '\00201D';
-}
-q:before {
-  content: open-quote;
-}
-q:after {
-  content: close-quote;
-}
-
-/**
  * Layout styles
  */
 
@@ -88,11 +65,6 @@ html {
 body {
   max-width:800px;
   margin:25px auto;
-}
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
 }
 
 /* Utility classes */
